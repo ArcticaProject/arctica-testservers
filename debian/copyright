@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: arctica-testserver-nx3
+Upstream-Name: arctica-testservers
 Upstream-Contact: Arctica Project Developers <devs@lists.arctica-project.org>
-Source: https://github.com/ArcticaProject/arctica-testserver-nx3
+Source: https://github.com/ArcticaProject/arctica-testservers
 
 Files: arctica-testserver-nx3
 Copyright:
