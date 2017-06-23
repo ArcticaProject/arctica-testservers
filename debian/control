@@ -1,0 +1,27 @@
+Source: arctica-testservers
+Section: misc
+Priority: optional
+Build-Depends:
+ cdbs,
+ debhelper (>= 9),
+Maintainer: Arctica Project Developers <devs@lists.arctica-project.org>
+Uploaders:
+ Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Homepage: https://arctica-project.org/
+Vcs-Git: https://github.com/ArcticaProject/arctica-testserver
+Vcs-Browser: https://github.com/ArcticaProject/arctica-testserver
+Standards-Version: 3.9.8
+
+Package: arctica-testserver-nx3
+Architecture: all
+Depends:
+ ${misc:Depends},
+Description: Arctica Test Server (bringing up an NXv3 based desktop session)
+ The Arctica Project brings forth a remote computing framework of
+ enterprise grade and quality. The Arctica Framework is a highly
+ modularized and thus pluggable for developing alls sort of remote
+ services.
+ .
+ This package provides a simple test server that can fire up server-side
+ desktop sessions inside an NXv3 nxagent session. In such a session
+ all sorts of Arctica Project services can be tested.
